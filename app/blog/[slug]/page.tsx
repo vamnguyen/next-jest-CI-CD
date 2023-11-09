@@ -12,7 +12,8 @@ export default function Page({ params }: Params) {
   return (
     <>
       <h1>Slug: {params.slug}</h1>
-      <p>Hello AnhMinh! Welcome to Next with Jest CI/CD.</p>
+      <p>AnhMinh</p>
+      <p>Welcome to Next with Jest CI/CD.</p>
     </>
   );
 }
