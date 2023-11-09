@@ -16,8 +16,8 @@ jobs:
 
     strategy:
       matrix:
-        # Next.js only run node-version 16+
-        node-version: [16.x, 18.x]
+        # Next.js only run node-version 16+ and Next 14 required node-version >=18.17.0
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
